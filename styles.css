@@ -1,0 +1,194 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+*,
+*:before,
+*:after {
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+:focus,
+:active {
+    outline: none;
+}
+a:focus,
+a:active {
+    outline: none;
+}
+nav,
+footer,
+header,
+aside {
+    display: block;
+}
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-size: 100%;
+    line-height: 1;
+    font-size: 16px;
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea,
+a {
+    font-family: inherit;
+    color: inherit;
+}
+input::-ms-clear {
+    display: none;
+}
+button {
+    cursor: pointer;
+}
+button::-moz-focus-inner {
+    padding: 0;
+    border: 0;
+}
+a,
+a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: none;
+}
+ul li {
+    list-style: none;
+}
+img {
+    vertical-align: top;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+/* General Styles */
+
+body {
+    color: #4d4e53 ;
+    background-color: #ffffff;
+    font-family: 'Open Sans', Arial, sans-serif;
+    line-height: 1.5;
+}
+
+#navbar {
+    max-height: 275px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    width: 100%;
+}
+
+header {
+    font-size: 1.8rem;
+    color: black;
+}
+
+#navbar header {
+    text-align: center;
+    margin: 10px;
+}
+
+#navbar ul {
+    margin: 1rem 0;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 207px;
+    border: 1px solid;
+}
+
+#navbar ul li {
+    border-bottom: 1px solid;
+    padding: 10px 30px;
+}
+
+.nav-link {
+    width: 100%;
+    display: block;
+}
+
+#navbar ul li:last-of-type {
+    border-bottom: none;
+}
+
+main {
+    margin-top: 275px;
+    padding: 20px 28px;
+}
+
+article {
+    margin: 1rem;
+}
+
+p {
+    margin-bottom: 1rem
+}
+
+article ul li {
+    list-style: disc;
+    margin-left: 3rem;
+    margin-bottom: 1rem;
+}
+
+code {
+    display: block;
+    margin: 0.7rem;
+    padding: 1rem;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    line-height: 2;
+    font-family: monospace;
+    font-size: 0.8rem;
+    word-break: normal;
+    word-wrap: normal;
+}
+
+li ul {
+    margin-top: 1rem;
+}
+
+li ul li {
+    list-style: circle;
+}
+
+#reference a {
+    color: blue;
+}
+
+#reference a:hover {
+    color: red;
+}
+
+@media only screen and (min-width: 815px) {
+    #navbar {
+        width: 300px;
+        height: 100%;
+        border-right: 1px solid;
+        max-height: none;
+    }
+
+    #navbar ul {
+        height: 88%;
+        border-bottom: none;
+        border-right: none;
+    }
+
+    main {
+        margin-top: 0px;
+        margin-left: 300px;
+    }
+}
