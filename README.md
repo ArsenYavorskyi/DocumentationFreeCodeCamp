@@ -43,7 +43,7 @@ Users should be able to:
 
 ### What I learned
 
-Це досить таки легкий проект, суть якого заключалась в тому, щоб створити адаптивну та типографічно привабливу сторінку з боковим меню, яке можна проскролити. Для імплементації цього меню використовувались властивості `overflow`:
+The objective of this project was to design a visually appealing and responsive web page with a scrolling side menu. To achieve this, the "overflow" properties were utilized:
 
 <details>
 <summary>Implementation of oveflow side menu</summary>
